@@ -1,0 +1,266 @@
+*{
+    font-family: Arial;
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 400;
+    color: #ffffff;
+}
+a {
+    text-decoration: none;
+}
+#container {
+   min-height:100%;
+   position:relative;
+}
+hr {
+    margin: 0px;
+}
+/*MAIN REGIONS*/
+body {
+    position: relative;
+    margin: 24px 60px;
+    width: 960px;
+    padding: 0px 10px;
+    /*border: 2px solid gray;*/
+}
+.head {
+    display: flex;
+    margin-bottom: 20px;
+}
+.maincont {
+    margin-top: 20px;
+    margin-bottom: 22px;
+    display: flex;
+}
+.left {
+    position: relative;
+    margin-right: 10px;
+}
+.side {
+    /*height: 775x;*/
+    /*width: 183px;*/
+    left: 0;
+    display: flex;
+    flex-direction: column;
+}
+.centerside {
+    margin-left: 10px;
+    display: block;
+} 
+.footcont {
+    margin-top: 24px;
+    display: flex;
+}
+
+/*HEADER BLOCKS*/
+#block1 {
+    display: block;
+    margin-right: 12px;
+}
+.block2 {
+    display: block;
+    width: 279px;
+    height: 108px;
+    background-color: #777777;
+    margin-right: 12px;
+    margin-left: 12px;
+}
+.block3 {
+    display: block;
+    width: 513px;
+    height: 108px;
+    background-color: #777777;
+    margin-left: 12px;
+    margin-right: 0px;
+}
+.block3info {
+    line-height: 10 px;
+    padding-top: 25px;
+    padding-right: 22px;
+
+}
+.block3info p {
+    margin: 0px;
+    text-align: right;
+}
+.block3info u {
+    text-decoration: underline;
+}
+/*SIDE BLOCKS*/
+.block4 {
+    width: 183px;
+    height: 335px;
+    background-color: #777777;
+    transition: .15s linear color;
+}
+.block4 ul {
+    font-weight: 700;
+    padding-inline-start: 0px;
+    margin: 0px;
+    padding: 20px 32px 0px 13px;
+
+}
+.block4 li {
+    line-height: 25px;
+    list-style: none;
+}
+.block4 a {
+    transition: .15s linear color;
+}
+.block5 {
+    display: block;
+    background-color: #dcdcdc;
+    height: 210px;
+    margin-bottom: 20px;
+}
+#block7 {
+    width: 183px;
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+/*CENTERSIDE BLOCKS*/
+.block5 p {
+    margin: 0;
+    line-height: 14px;
+    font-weight: 400;
+    color: #777777;
+    padding: 21px 0px 20px 21px;
+    padding-top: 21px;
+    padding-left: 21px;
+    padding-bottom: 20px;
+
+}
+.block5 b {
+    font-weight: 700;
+    color: #777777;
+}
+.block5 ul {
+    margin: 0;
+    line-height: 14px;
+}
+.block5 li {
+    color: #777777;
+    margin-right: 60px;
+}
+.block6 {
+    display: flex;
+    flex-wrap:wrap;
+    padding: 0;
+    margin:0;
+}
+.block6 li {
+    list-style: none;
+    margin-top: 0px;
+    margin-right: 11px;
+    margin-left: 11px;
+    margin-bottom: 10px; 
+    width: 134px;
+    height: 153px;
+}
+.block6 li:nth-child(1) {
+    margin-left: 0px;   
+}
+.block6 li:nth-child(2) {
+    margin-top: 0px;
+}
+.block6 li:nth-child(5) {
+    margin-right: 0;
+}
+.block6 li:nth-child(6) {
+    margin-top: 10px;
+    margin-left: 0;
+    margin-bottom:0;
+}
+.block6 li:last-child {
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+/*#block6 { ДРУГИЙ ВАРІАНТ(через одну велику картинку)!
+    display: block;
+    margin: 0;
+}*/
+.together8-9 {
+    display: block;
+    /*border: 2px solid red;*/
+    margin-top: 18px; 
+    display: flex;
+}
+/*BLOCKS TOGETHER 8-9*/
+.together8-9 p {
+    font-family: Arial;
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: 200;
+    color: #777777;
+    padding: 23px 20px 0px 22px;   
+}
+.block8 {
+    width: 370px;
+    height: 200px;
+    background-color:#dcdcdc;
+    margin-right: 9px;
+
+}
+.block8 p {
+    margin: 0px;    
+}
+.block9 {
+    width: 370px;
+    height: 200px;
+    background-color:#dcdcdc;
+    margin-left: 9px;
+}
+.block9 p {
+    margin:0px;
+}
+/*FOOTER BLOCKS*/
+.block10 {
+    width: 297px;
+    height: 180px;
+    background-color: #777777;
+    margin-right: 14px;
+}
+.block10 ul {
+    column-count: 2;
+    margin: 18px 70px 0px 0px;
+    padding-left: 40px;
+}
+.block10 li {
+    list-style: none;
+    line-height: 20px;
+}
+.block11 {
+    width: 297px;
+    height: 180px;
+    background-color: #777777;
+    margin: 0 14px;
+}
+.block11 ul {
+    margin: 18px 0px 0px 0px;
+    padding-left: 40px;
+}
+.block11 li {
+    list-style: square;
+    line-height: 20px;
+}
+/*BLOCKS TOGETHER 12-13*/
+.together12-13 {
+    display: flex;
+    flex-direction: column;
+    margin-left: 14px;
+
+}
+.block12 {
+    width: 310px;
+    height: 75px;
+    background-color: #777777;
+    margin-bottom: 15px;
+}
+#block13 {
+    margin-top:15px;
+    width: 310px;
+    height: 75px;
+    background-color: #777777;
+}
